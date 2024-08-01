@@ -29,6 +29,8 @@ int		ft_strncmp(const char *s1, const char *s2, unsigned int n);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 int		ft_strcmp(char *s1, char *s2);
+int		cntwrd(char const *s, char c);
+
 
 char	*ft_itoa(int n);
 char	*ft_strchr(const char *s, int c);
@@ -36,6 +38,8 @@ char	*ft_strdup(const char *src);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	**ft_split(char const *s, char c);
 char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strjoin_with_space(char *s1, char *s2);
+
 char	*ft_strnstr(char const *big, char const *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strtrim(char const *s1, char const *set);
