@@ -6,7 +6,7 @@
 /*   By: hulefevr <hulefevr@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 09:32:42 by hulefevr          #+#    #+#             */
-/*   Updated: 2024/04/22 11:31:06 by hulefevr         ###   ########.fr       */
+/*   Updated: 2024/08/27 12:20:22 by hulefevr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <string.h>
 
 int		ft_atoi(const char *str);
+int		ft_atoi_base(const char *str, int base);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);

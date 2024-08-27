@@ -6,7 +6,7 @@
 #    By: hulefevr <hulefevr@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/06 13:00:21 by hulefevr          #+#    #+#              #
-#    Updated: 2024/06/06 13:18:33 by hulefevr         ###   ########.fr        #
+#    Updated: 2024/08/27 12:20:46 by hulefevr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CFLAGS	:= -Werror -Wextra -Wall
 NAME	:= libft.a
 
 SRCS	:=	ft_atoi.c \
+			ft_atoi_base.c \
 			ft_bzero.c \
 			ft_calloc.c \
 			ft_isalnum.c \
